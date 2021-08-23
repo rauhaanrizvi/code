@@ -4,7 +4,7 @@
   "description": "React to Python",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=development parcel --log-level 4 react_hello4.html --out-dir dist/dev",
+    "start": "NODE_ENV=development parcel --log-level 4 react_hello4.html --out-dir dist/dev --port 3500 --host 0.0.0.0",
     "build": "NODE_ENV=production parcel --log-level 4 build react_hello4.html --no-source-maps --out-dir dist/prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
